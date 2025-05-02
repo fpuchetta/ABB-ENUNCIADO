@@ -8,7 +8,7 @@ enum abb_recorrido { ABB_INORDEN, ABB_PREORDEN, ABB_POSTORDEN };
 typedef struct abb_t abb_t;
 
 /**
- * Crea un ABB vacío con el comparador dado.abb_buscar
+ * Crea un ABB vacío con el comparador dado.
  * En caso de error devuelve NULL.
  */
 abb_t *abb_crear(int (*cmp)(const void *, const void *));
